@@ -681,14 +681,14 @@ section {
 }
 
 .constructions .card-item .card-bg {
-  min-height: 300px;
+  min-height: 475px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .constructions .card-item .card-body {
-  padding: 30px;
+  padding: 10px;
 }
 
 .constructions .card-item h4 {
@@ -701,6 +701,8 @@ section {
 .constructions .card-item p {
   color: var(--color-secondary);
   margin: 0;
+  font-size: 15px;
+  text-align: start;
 }
 
 /*--------------------------------------------------------------
@@ -1097,6 +1099,13 @@ section {
   background-size: cover;
   background-position: center center;
   min-height: 400px;
+}
+
+.alt-services .img-bg2 {
+  background-size: cover;
+  background-position: center center;
+  min-height: 490px;
+  width: 300px;
 }
 
 .alt-services h3 {
