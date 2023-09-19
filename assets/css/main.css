@@ -679,17 +679,20 @@ section {
 # Constructions Section
 --------------------------------------------------------------*/
 .constructions .card-item {
-  border: 1.5px solid #59a77f;
-  background: #fff;
+  border: 1px solid #59a77f;
+  background: #59a77f;
   position: relative;
-  border-radius: 0;
+  border-radius: 24px;
+  
 }
 
 .constructions .card-item .card-bg {
   min-height: 475px;
   background-size: cover;
+  border-radius: 24px 0px 0px 24px;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 .constructions .card-item .card-body {
