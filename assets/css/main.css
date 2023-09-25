@@ -703,11 +703,18 @@ section {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
-  color: var(--color-secondary);
+  color: white;
 }
 
 .constructions .card-item p {
-  color: var(--color-secondary);
+  color: white;
+  margin: 0;
+  font-size: 15px;
+  text-align: start;
+}
+
+.constructions .card-item ul {
+  color: white;
   margin: 0;
   font-size: 15px;
   text-align: start;
@@ -761,7 +768,7 @@ section {
 }
 
 .services .service-green h3 {
-  color: var(--color-default);
+  color: white;
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -776,6 +783,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: white;
 }
 .services .service-green:hover .icon:before {
   background:#f2f400;
@@ -1245,12 +1253,15 @@ section {
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: white;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }
 
+.alt-services p {
+  color: white;
+}
 .alt-services h3:after {
   content: "";
   position: absolute;
@@ -2832,6 +2843,19 @@ section {
   border-radius: 4px;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
+}
+
+.footer .footer-content .social-links a img {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  
+  border-radius: 4px;
+  width: 23px;
+  height: 23px;
   transition: 0.3s;
 }
 
