@@ -2842,8 +2842,8 @@ section {
   line-height: 1;
   margin-right: 8px;
   border-radius: 4px;
-  width: 36px;
-  height: 36px;
+  width: 56px;
+  height:56px;
   transition: 0.3s;
 }
 
@@ -2855,8 +2855,8 @@ section {
   line-height: 1;
   
   border-radius: 4px;
-  width: 23px;
-  height: 23px;
+  width: 33px;
+  height: 33px;
   transition: 0.3s;
 }
 
