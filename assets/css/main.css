@@ -710,7 +710,7 @@ section {
   color: white;
   margin: 0;
   font-size: 15px;
-  text-align: start;
+  text-align: justify;
 }
 
 .constructions .card-item ul {
@@ -2842,12 +2842,30 @@ section {
   line-height: 1;
   margin-right: 8px;
   border-radius: 4px;
-  width: 56px;
-  height:56px;
+  width: 33px;
+  height: 33px;
   transition: 0.3s;
 }
 
-.footer .footer-content .social-links a img {
+.footer .footer-content .social-links .tokopedia a img {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  
+  border-radius: 4px;
+  width: 23px;
+  height: 23px;
+  transition: 0.3s;
+}
+
+.footer .footer-content .social-links .tokopedia a:hover {
+  background:green;
+  text-decoration: none;
+}
+
+.footer .footer-content .social-links .twitter a {
   font-size: 18px;
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
@@ -2860,8 +2878,80 @@ section {
   transition: 0.3s;
 }
 
-.footer .footer-content .social-links a:hover {
-  background: var(--color-primary);
+.footer .footer-content .social-links .twitter a:hover {
+  background:#1DA1F2;
+  text-decoration: none;
+}
+
+.footer .footer-content .social-links .facebook a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  
+  border-radius: 4px;
+  width: 33px;
+  height: 33px;
+  transition: 0.3s;
+}
+
+.footer .footer-content .social-links .facebook a:hover {
+  background:#3b5998;
+  text-decoration: none;
+}
+
+.footer .footer-content .social-links .instagram a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  
+  border-radius: 4px;
+  width: 33px;
+  height: 33px;
+  transition: 0.3s;
+}
+
+.footer .footer-content .social-links .instagram a:hover {
+  background:#e76f51;
+  text-decoration: none;
+}
+
+.footer .footer-content .social-links .linkedin a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  
+  border-radius: 4px;
+  width: 33px;
+  height: 33px;
+  transition: 0.3s;
+}
+
+.footer .footer-content .social-links .linkedin a:hover {
+  background:#006192;
+  text-decoration: none;
+}
+
+.footer .footer-content .social-links .whatsapp a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  
+  border-radius: 4px;
+  width: 33px;
+  height: 33px;
+  transition: 0.3s;
+}
+
+.footer .footer-content .social-links .whatsapp a:hover {
+  background:	#25d366;
   text-decoration: none;
 }
 
