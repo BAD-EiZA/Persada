@@ -2837,7 +2837,7 @@ section {
 .footer .footer-content .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:green;
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -2850,7 +2850,7 @@ section {
 .footer .footer-content .social-links .tokopedia a img {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:green;
   color: #fff;
   line-height: 1;
   
@@ -2868,7 +2868,7 @@ section {
 .footer .footer-content .social-links .twitter a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:#1DA1F2;
   color: #fff;
   line-height: 1;
   
@@ -2886,7 +2886,7 @@ section {
 .footer .footer-content .social-links .facebook a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:#3b5998;
   color: #fff;
   line-height: 1;
   
@@ -2904,7 +2904,7 @@ section {
 .footer .footer-content .social-links .instagram a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:#e76f51;
   color: #fff;
   line-height: 1;
   
@@ -2922,7 +2922,7 @@ section {
 .footer .footer-content .social-links .linkedin a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:#006192;
   color: #fff;
   line-height: 1;
   
@@ -2940,7 +2940,7 @@ section {
 .footer .footer-content .social-links .whatsapp a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background:	#25d366;
   color: #fff;
   line-height: 1;
   
